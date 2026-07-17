@@ -57,14 +57,19 @@ Building CoAP applications shouldn't feel different from building modern HTTP AP
 FastCOAP provides an elegant programming model inspired by FastAPI while embracing the CoAP ecosystem. Whether you're developing applications for IoT devices, smart homes, industrial automation, or sensor networks, FastCOAP helps you write less code and ship faster.
 
 
-## Requirements
+## Dependencies
 
-FastCOAP stands on the shoulders of giants:
+| Package | Purpose |
+|---|---|
+| `aiocoap` | Async CoAP server and client |
+| `pydantic >= 2.0` | Request body validation and serialisation |
+| `cbor2` | CBOR encoding / decoding |
+| `typer` | CLI (`fastcoap run`, `fastcoap routes`) |
+| `rich` | Pretty terminal output |
+| `anyio` | Async primitives |
+| `watchfiles` | `--reload` file watcher |
 
-* [aiocoap](https://pypi.org/project/aiocoap/) for the coap server parts.
-* [Pydantic](https://docs.pydantic.dev/) for the data parts.
-* [Typer](https://typer.tiangolo.com/) for CLI parts
-* [Cbor2](https://github.com/agronholm/cbor2) for serialize and deserialize Cbor data parts
+---
 
 
 
