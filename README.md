@@ -9,6 +9,9 @@
 </p>
 
 <p align="center">
+<a href="https://python.org">
+    <img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python">
+</a>
 <a href="https://github.com/your-org/fastcoap/actions">
     <img src="https://img.shields.io/github/actions/workflow/status/darixsamani/fastcoap/tests.yml?label=tests" alt="Tests">
 </a>
